@@ -1,0 +1,105 @@
+/* styles for interview */
+body{
+	background-color: rgb(22, 45, 119);
+	margin: 0;
+	padding: 0;
+}
+
+.StayPut{
+	position:fixed;
+	width:100%;
+}
+
+h1.topHeading {
+	font-family: 'Bangers', cursive;
+	color: rgb(200, 0, 0);
+	background-color: rgb(22 , 5, 100);
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: center;
+	font-size:5.0em;
+	margin: 0;
+}
+
+div.pics{
+
+	text-align: center;
+	padding-top:10%;
+}
+
+div.menuBar {
+	padding-left: 5%;
+	width: 100%;
+	margin:0;
+	background-color: dodgerblue;
+}
+
+.menuB {
+	float: left;
+	width:22%;
+	color:orange;
+	font-size:3.0em;
+	text-align:center;
+} 
+
+.pagematerial{
+
+	float:none;
+}
+
+p{
+	float: none;
+}
+
+a.menuLink:hover{
+	text-decoration:none;
+	font-size:1.1em;
+	text-align:center;
+	-webkit-text-stroke-width:1px;
+	-webkit-text-stroke-color: rgb(22, 36, 135);
+}
+
+a.menuLink:visited, a.menuLink:Link{
+	text-decoration:none;
+	color: orange;
+	font-size:1.1em;
+	text-align:center;
+	-webkit-text-stroke-width:1px;
+	-webkit-text-stroke-color: rgb(22, 36, 135);
+}
+}
+
+
+a.menuLink:active{
+	color: rgb(255, 141, 35);
+}
+
+
+
+a#homeLink:link{
+	text-decoration: none;
+	color: rgb(200, 0, 0);
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: white;
+	font-size:1.0em;
+}
+
+
+
+a#homeLink:visited{
+	text-decoration: none;
+	color: rgb(200, 0, 0);
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: white;
+	font-size:1.0em;
+}
+
+
+
+a#homeLink:active{
+	text-decoration: none;
+	color: rgb(200, 0, 0);
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: white;
+	font-size:1.0em;
+}
