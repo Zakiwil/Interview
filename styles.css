@@ -1,6 +1,6 @@
 /* styles for interview */
 body{
-	background-color: rgb(22, 45, 119);
+	background-color: grey;
 	margin: 0;
 	padding: 0;
 }
@@ -12,8 +12,8 @@ body{
 
 h1.topHeading {
 	font-family: 'Bangers', cursive;
-	color: rgb(200, 0, 0);
-	background-color: rgb(22 , 5, 100);
+	color: rgb(255, 209, 5);
+	background-color: grey;
 	padding-top: 5%;
 	padding-bottom: 5%;
 	text-align: center;
@@ -31,7 +31,8 @@ div.menuBar {
 	padding-left: 5%;
 	width: 100%;
 	margin:0;
-	background-color: dodgerblue;
+	background-color: purple;
+	height: 60px;
 }
 
 .menuB {
@@ -51,34 +52,34 @@ p{
 	float: none;
 }
 
-a.menuLink:hover{
+a.menulink:hover{
 	text-decoration:none;
 	font-size:1.1em;
 	text-align:center;
 	-webkit-text-stroke-width:1px;
-	-webkit-text-stroke-color: rgb(22, 36, 135);
+	-webkit-text-stroke-color: rgb(255, 209, 5);
 }
 
-a.menuLink:visited, a.menuLink:Link{
+a.menulink:visited, a.menulink:Link{
 	text-decoration:none;
 	color: orange;
 	font-size:1.1em;
 	text-align:center;
 	-webkit-text-stroke-width:1px;
-	-webkit-text-stroke-color: rgb(22, 36, 135);
+	-webkit-text-stroke-color: rgb(255, 209, 5);
 }
 }
 
 
-a.menuLink:active{
-	color: rgb(255, 141, 35);
+a.menulink:active{
+	color: rgb(255, 209, 5);
 }
 
 
 
-a#homeLink:link{
+a#homelink:link{
 	text-decoration: none;
-	color: rgb(200, 0, 0);
+	color: purple;
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: white;
 	font-size:1.0em;
@@ -86,9 +87,9 @@ a#homeLink:link{
 
 
 
-a#homeLink:visited{
+a#homelink:visited{
 	text-decoration: none;
-	color: rgb(200, 0, 0);
+	color: purple;
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: white;
 	font-size:1.0em;
@@ -96,10 +97,20 @@ a#homeLink:visited{
 
 
 
-a#homeLink:active{
+a#homelink:active{
 	text-decoration: none;
-	color: rgb(200, 0, 0);
+	color: purple;
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: white;
 	font-size:1.0em;
+}
+
+.pageText{
+	text-align: center;
+	font-size: 1.5em;
+	color: purple;
+}
+
+span.first{
+	color:orange;
 }
